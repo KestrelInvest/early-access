@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security finding
+    url: mailto:info@kestrelinvest.xyz?subject=SECURITY
+    about: Do not open a public issue for security findings. Email us — acknowledged within 48 hours.
+  - name: Questions & discussion
+    url: https://github.com/KestrelInvest/early-access/discussions
+    about: Everything that isn't a bug or a feature request.

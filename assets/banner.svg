@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Kestrel Early Access">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04140d"/><stop offset="1" stop-color="#0b2a1c"/></linearGradient>
+    <radialGradient id="glow" cx="0.18" cy="0.5" r="0.6"><stop offset="0" stop-color="#2ee6a0" stop-opacity=".35"/><stop offset="1" stop-color="#2ee6a0" stop-opacity="0"/></radialGradient>
+    <linearGradient id="near" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9dffdd"/><stop offset=".5" stop-color="#2ee6a0"/><stop offset="1" stop-color="#0e9f6e"/></linearGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#15b884"/><stop offset="1" stop-color="#0a7047"/></linearGradient>
+    <linearGradient id="bod" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c7ffee"/><stop offset="1" stop-color="#12b07d"/></linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#glow)"/>
+  <g transform="translate(70,60) scale(2)">
+    <path fill="url(#far)" d="M47 52 C 37 40 27 31 13 26 C 20 40 30 51 43 57 Z"/>
+    <path fill="url(#bod)" d="M45 55 C 42 49 43 42 49 38 C 47 35 46 31 49 28 C 52 31 53 35 52 39 C 58 43 60 51 56 60 L 68 82 L 57 73 L 54 88 L 50 71 C 47 66 46 61 45 55 Z"/>
+    <path fill="url(#near)" d="M51 40 C 63 27 76 19 93 15 C 80 28 67 40 55 47 Z"/>
+    <path fill="#2ee6a0" opacity=".75" d="M72 25 C 80 20 86 18 92 16 C 85 23 77 29 69 34 Z"/>
+    <circle cx="50.5" cy="31" r="1.8" fill="#0a1712"/>
+  </g>
+  <text x="330" y="118" font-family="Space Grotesk, Inter, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="8" fill="#68f0bd">KESTREL</text>
+  <text x="330" y="186" font-family="Space Grotesk, Inter, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1.5" fill="#eafff4">Early Access</text>
+  <text x="330" y="232" font-family="Inter, Helvetica, Arial, sans-serif" font-size="20" fill="#9fc4b2">The first cohort. Tokenized US securities, gold and silver on Solana — advised, never held.</text>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#68f0bd">
+    <rect x="330" y="258" width="150" height="30" rx="15" fill="none" stroke="#2ee6a0" stroke-opacity=".5"/><text x="405" y="278" text-anchor="middle" letter-spacing="2">750 TESTERS</text>
+    <rect x="494" y="258" width="196" height="30" rx="15" fill="none" stroke="#2ee6a0" stroke-opacity=".5"/><text x="592" y="278" text-anchor="middle" letter-spacing="2">NON-CUSTODIAL</text>
+    <rect x="704" y="258" width="176" height="30" rx="15" fill="none" stroke="#2ee6a0" stroke-opacity=".5"/><text x="792" y="278" text-anchor="middle" letter-spacing="2">IN DEVELOPMENT</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+name: Bug report
+description: Something is wrong on the site, in a tracker, or in a vault flow.
+title: "[bug] "
+labels: ["bug", "early-access"]
+body:
+  - type: markdown
+    attributes:
+      value: "Never include a seed phrase, private key, or personal contact details. Security findings go to info@kestrelinvest.xyz, not here."
+  - type: input
+    id: where
+    attributes: { label: Where, description: "Page or flow, e.g. portfolios.html / Perch tracker", placeholder: "kestrelinvest.xyz/…" }
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes: { label: Steps to reproduce, placeholder: "1. …\n2. …\n3. …" }
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: What you expected }
+    validations: { required: true }
+  - type: textarea
+    id: actual
+    attributes: { label: What happened instead, description: "Include the time with timezone and a screenshot if you have one." }
+    validations: { required: true }
+  - type: input
+    id: env
+    attributes: { label: Device / browser / wallet, placeholder: "iPhone 15, Safari, Phantom" }
+  - type: dropdown
+    id: phase
+    attributes: { label: Phase, options: ["1 — Paper (site)", "2 — Devnet", "3 — Pilot"] }
+    validations: { required: true }
