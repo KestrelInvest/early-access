@@ -75,6 +75,11 @@ Good reports name the page, the time (with timezone), and the steps. "It's broke
 
 ---
 
+## Statistics & profiles
+
+- [STATS.md](STATS.md) — real cohort numbers, updated from actual sign-ups and issues. Never modeled.
+- [PROFILES.md](PROFILES.md) — five illustrative tester profiles (one per portfolio) showing what each allocation exercises and the kind of report it produces. Clearly labeled as examples, not testimonials.
+
 ## Timeline & changelog
 
 See [CHANGELOG.md](CHANGELOG.md). Phase changes, cap changes, and review milestones are recorded there with dates.
